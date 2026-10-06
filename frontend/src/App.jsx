@@ -16,7 +16,7 @@ import Login from "./pages/auth/Login";
 import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
 import AccessDenied from "./pages/auth/AccessDenied";
-
+import Register from "./pages/auth/Register";
 // Student Pages
 import StudentDashboard from "./pages/student/Dashboard";
 import StudentApplication from "./pages/student/Application";
@@ -58,6 +58,7 @@ function App() {
         
         {/* Auth Routes */}
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/access-denied" element={<AccessDenied />} />
